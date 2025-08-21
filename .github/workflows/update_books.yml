@@ -1,0 +1,40 @@
+name: Update Books Table
+
+on:
+  push:
+    paths:
+      - books.csv
+      - scripts/generate_books_table.py
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 1'  # Every Monday at 12:00 UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+
+      - name: Generate and update books table
+        run: |
+          # Generate the table and update README
+          python scripts/update_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update books table automatically 📚"
+          git push
