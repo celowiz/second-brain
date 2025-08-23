@@ -432,7 +432,8 @@ Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions
 - [Voilà](https://voila.readthedocs.io/en/stable/)
 - [Panel](https://panel.holoviz.org/)
 - [Solara](https://solara.dev/)
-- [Streamlit]()
+- [Streamlit](https://streamlit.io/)
+- [marimo](https://marimo.io/)
 
 ## 🧠 Academic Articles
 
