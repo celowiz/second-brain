@@ -29,19 +29,24 @@ This repository is my public "Second Brain": a personal curation of content I fi
     - [Databases and Tests](#databases-and-tests)
   - [▶️ YouTube Channels](#️-youtube-channels)
 - [🐍 Python Libraries](#-python-libraries)
-  - [Project Management and Environment Setup](#project-management-and-environment-setup)
+  - [Dev Tools](#dev-tools)
   - [Numerical Operations and Data Manipulation](#numerical-operations-and-data-manipulation)
-  - [Data Sources](#data-sources)
+  - [Data Ingestion](#data-ingestion)
+  - [Data Validation](#data-validation)
+  - [Financial Data Sources](#financial-data-sources)
   - [Bloomberg Integration](#bloomberg-integration)
   - [Technical Indicators](#technical-indicators)
   - [Data Visualization](#data-visualization)
   - [Backtesting](#backtesting)
-  - [Finance](#finance)
+  - [Finance Statements](#finance-statements)
   - [User Interface (UI)](#user-interface-ui)
   - [Database](#database)
+  - [Workflow Orchestration](#workflow-orchestration)
   - [Risk Metrics / Risk Analysis](#risk-metrics--risk-analysis)
+  - [Portfolio Optimization](#portfolio-optimization)
   - [Trading Calendar](#trading-calendar)
   - [News](#news)
+  - [Others](#others)
 - [📈 Quantitative Strategies \& Backtesting](#-quantitative-strategies--backtesting)
   - [Introduction to Backtesting](#introduction-to-backtesting)
   - [Infrastructure](#infrastructure)
@@ -51,9 +56,12 @@ This repository is my public "Second Brain": a personal curation of content I fi
   - [Arbitrage](#arbitrage)
   - [Regime Statistics (Hidden Markov Models)](#regime-statistics-hidden-markov-models)
   - [Volatility](#volatility)
+  - [Others](#others-1)
   - [Strategies Library](#strategies-library)
 - [🧮 Datasets \& APIs](#-datasets--apis)
+  - [Ticker Info](#ticker-info)
   - [OHLC](#ohlc)
+  - [FX](#fx)
   - [Technical Indicators](#technical-indicators-1)
   - [Macroeconomic Data](#macroeconomic-data)
     - [Worldwide](#worldwide)
@@ -77,7 +85,7 @@ This repository is my public "Second Brain": a personal curation of content I fi
   - [Writing](#writing)
   - [Sharing](#sharing)
 - [🧠 Academic Articles](#-academic-articles)
-- [Career](#career)
+- [💼 Career](#-career)
   - [Interview Prep](#interview-prep)
   - [Coding Exercises](#coding-exercises)
   - [Virtual Job Simulations](#virtual-job-simulations)
@@ -114,6 +122,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ### 💰 Quantitative Finance
 - [WorldQuant University](https://www.wqu.edu/mscfe) — MSc in Financial Engineering. Tuition: Free 
 - [Quantitative Trading (Ernest Chan)](https://www.epchan.com/)  — (livro + cursos)
+- [Algotrading101: Algorithmic Trading Immersive Course](https://course.algotrading101.com/courses/13378/lectures/49762046)
 - [OCW: Math of Finance - MIT](https://ocw.uci.edu/courses/math_176_math_of_finance.html)
 - [Quantra](https://quantra.quantinsti.com/courses)
 - [Udemy: Hudson and Thames Quantitative Research](https://www.udemy.com/user/hudson-and-thames-quantitative-research/)
@@ -125,7 +134,9 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Coursera: Financial Markets by Yale](https://www.coursera.org/learn/financial-markets-global)
 - [Coursera: Trading Strategies in Emerging Markets Specialization by ISB](https://www.coursera.org/specializations/trading-strategy)
 - [Coursera: Financial Engineering and Risk Management – Columbia](https://www.coursera.org/specializations/financialengineering)
+
 ### 📈 Econometrics and Economy
+- [Anbima: Conceitos Básicos de Economia e Finanças](https://www.anbima.com.br/data/files/42/40/0C/33/466A4810EA926748882BA2A8/CPA-10-Cap3.pdf)
 - [QuantEcon – Python para Economia](https://quantecon.org/)
 - [CORE Econ](https://www.core-econ.org/)
 - [MIT OCW Economics](http://ocw.mit.edu/courses/economics/) - Over 100 courses covering all major fields of economics. Courses include prerequisites, recommended textbooks, lecture slides, and assignments. Undergraduate and graduate programs.
@@ -133,13 +144,19 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Khan Academy: Economics](https://www.khanacademy.org/economics-finance-domain) - Elementary topics.
 
 ### 🛠 Data Engineering
-- [The Data Engineering Cookbook](https://github.com/andkret/Cookbook/tree/master?tab=readme-ov-file)
-- [DataTalksClub – Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) 
+- [Data Engineering For Beginners](https://de101.startdataengineering.com/)
+- [The Data Engineering Cookbook](https://github.com/andkret/Cookbook/)
+- [DataExpert.io: The Data Engineering Handbook](https://github.com/DataExpert-io/data-engineer-handbook)
+- [DataTalksClub: Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) 
+- [Summer Data Engineering Roadmap](https://www.ssp.sh/blog/data-engineering-roadmap/)
 - [Prefect Academy](https://prefect.io/academy)
+- [Coursera: Data Engineering Basics for Everyone by IBM](https://www.edx.org/learn/data-engineering/ibm-data-engineering-basics-for-everyone)
 - [Coursera: ETL and Data Pipelines with Shell, Airflow and Kafka](https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka?irclickid=11Uxwf1P4xyNR8G2-TRPdSsQUkA0KPSn%3AVCoWM0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3294490&utm_content=b2c#syllabus)
 - [Coursera: Data Engineering](https://www.coursera.org/professional-certificates/data-engineering?utm_campaign=dlai-lp&utm_medium=institutions&utm_source=deeplearning-ai)
 - [Udemy: The Complete Hands-On Introduction to Apache Airflow 3](https://www.udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow/)
-
+- [AWS Tutorial: Build a Full Stack React Application](https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/)
+- [AWS Educate](https://aws.amazon.com/education/awseducate/)
+- [AWS Skill Builder](https://skillbuilder.aws/category/getstarted)
 ### 🤖 Machine Learning & AI
 - [Bloomberg: Foundations of Machine Learning](https://bloomberg.github.io/foml/#home)
 - [FastAI](https://course.fast.ai/)
@@ -153,6 +170,12 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
   - [Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
   - [Practical Multi AI Agents and Advanced Use Cases with crewAI](https://www.deeplearning.ai/short-courses/practical-multi-ai-agents-and-advanced-use-cases-with-crewai/)
   - [Building Your Own Database Agent](https://www.deeplearning.ai/short-courses/building-your-own-database-agent/)
+- [LangChain Academy](https://academy.langchain.com/collections)
+  - [Foundation: Introduction to LangGraph](https://academy.langchain.com/courses/intro-to-langgraph)
+  - [Project: Building Ambient Agents with LangGraph](https://academy.langchain.com/courses/ambient-agents)
+  - [Foundation: Introduction to LangSmith](https://academy.langchain.com/courses/intro-to-langsmith)
+  - [Project: Deep Research with LangGraph](https://academy.langchain.com/courses/deep-research-with-langgraph)
+- [Coursera: Generative AI Engineering with LLMs Specialization by IBM](https://www.coursera.org/specializations/generative-ai-engineering-with-llms)
 - [Coursera: Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning)
 - [Coursera: Machine Learning for Trading Specialization by New York Institute of Finance](https://www.coursera.org/specializations/machine-learning-trading)
 - [Coursera: Investment Management with Python and Machine Learning Specialization by EDHEC](https://www.coursera.org/specializations/investment-management-python-machine-learning)
@@ -162,7 +185,9 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Google: Introduction to Generative AI Learning Path](https://www.cloudskillsboost.google/paths/118?utm_source=cgc&utm_medium=blog&utm_campaign=certsailaunchapril2024)
 - [Google: Generative AI Leader](https://www.cloudskillsboost.google/paths/1951)
 - [Microsoft: Generative AI for beginners](https://microsoft.github.io/generative-ai-for-beginners/#/)
-
+- [Microsoft: Matering GitHub for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+- [Hugging Face: MCP Course](https://huggingface.co/learn/mcp-course/unit0/introduction)
+- [Hugging Face: Agents Course](https://huggingface.co/learn/agents-course/unit0/introduction)
 ### 💻 Programming
 
 #### Python
@@ -176,6 +201,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Full Stack Open](https://fullstackopen.com/)
 - [Scrimba](https://scrimba.com/home)
 - [Microsoft: Intro to Web Development](https://vscodeedu.com/courses/intro-to-web-dev)
+- [Microsoft: Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 - [freecodecamp: JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8)
 - [freecodecamp: Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
 - [freecodecamp: Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/)
@@ -192,29 +218,39 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 ## 🐍 Python Libraries
 
-### Project Management and Environment Setup
-- [uv]()
+### Dev Tools
+- [uv]() — Modern, fast package installers for Python
+- [ruff]() — Fast linter and code formatter
+- [pytest]() — A testing framework for Python
 ### Numerical Operations and Data Manipulation
 - [numpy]()
 - [pandas]()
-### Data Sources
+### Data Ingestion
+- [requests]() — HTTP library for API queries and web scraping
+- [BeautifulSoup]() — HTML parsing library for web scraping
+### Data Validation
+- [pydantic]() —  Data validation for Python objects
+### Financial Data Sources
 - [Alpha Vantage](https://github.com/RomelTorres/alpha_vantage)
 - [Stooq](https://github.com/wegar-2/pystooq)
 - [Finance Database](https://github.com/JerBouma/FinanceDatabase)
+- [findatapy](https://github.com/cuemacro/findatapy)
 ### Bloomberg Integration
 - [xbbg](https://github.com/alpha-xone/xbbg)
 - [pdblp](https://github.com/matthewgilbert/pdblp)
 - [blp](https://github.com/matthewgilbert/blp)
 ### Technical Indicators
-- [TA-Lib]()
+- [TA-Lib](https://github.com/TA-Lib/ta-lib-python)
 ### Data Visualization
 - [matplotlib]()
+- [mplfinance](https://github.com/matplotlib/mplfinance)
 - [plotly]()
 - [light-weight-charts](https://github.com/louisnw01/lightweight-charts-python)
 ### Backtesting
 - [QSTrader](https://www.quantstart.com/qstrader/)
 - [Zipline](https://github.com/quantopian/zipline)
 - [PyAlgoTrade](https://gbeced.github.io/pyalgotrade/)
+- [pysystemtrade](https://github.com/robcarver17/pysystemtrade)
 - [Backtrader](https://github.com/mementum/backtrader)
 - [QuantConnect - Lean](https://github.com/QuantConnect/Lean)
 - [pyqstrat](https://github.com/abbass2/pyqstrat)
@@ -229,38 +265,77 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [VectorBT](https://vectorbt.pro/)
 - [Lumibot](https://lumibot.lumiwealth.com/)
 - [Quantrocket](https://www.quantrocket.com/)
-### Finance
+- [RQalpha](https://github.com/ricequant/rqalpha)
+- [zvt](https://github.com/zvtvz/zvt)
+- [QuantConnect LEAN](https://github.com/QuantConnect/Lean)
+### Finance Statements
 - https://pypi.org/project/edgar/
 - https://pypi.org/project/python-edgar/
 ### User Interface (UI)
 - Flet
 - RerportLab
 - Streamlit
-- [Taipy](https://taipy.io/)
+- [Taipy](https://github.com/Avaiga/taipy)
+- [marimo](https://github.com/marimo-team/marimo)
+
 ### Database
-- [duckDB](https://duckdb.org/docs/stable/clients/python/overview.html)
+- [OLTP](https://en.wikipedia.org/wiki/Online_transaction_processing)
+  - [SQLite](https://github.com/sqlite/sqlite)
+  - [Postgres](https://github.com/postgres/postgres)
+  - [MySQL](https://www.mysql.com/) / [MariaDB](https://github.com/MariaDB/server)
+- [OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing)
+  - [DuckDB](https://github.com/duckdb/duckdb)
+  - [MotherDuck](https://motherduck.com/)
+
+### Workflow Orchestration
+- [Apache Ariflow](https://github.com/apache/airflow)
+- [Dagster](https://github.com/dagster-io/dagster)
+- [Prefect](https://github.com/PrefectHQ/prefect)
+- [Mage](https://github.com/mage-ai/mage-ai)
+- [Kestra](https://github.com/kestra-io/kestra)
+- [Argo](https://github.com/argoproj/argo-workflows)
+- [Flyte](https://github.com/flyteorg/flyte)
+- [Temporal](https://github.com/temporalio/temporal)
 ### Risk Metrics / Risk Analysis
-- https://github.com/quantopian/empyrical
-- https://github.com/quantopian/pyfolio
-- https://github.com/ranaroussi/quantstats
-- https://riskfolio-lib.readthedocs.io/en/latest/examples.html
+- [Empyrical](https://github.com/quantopian/empyrical)
+- [Pyfolio](https://github.com/quantopian/pyfolio)
+- [Quantstats](https://github.com/ranaroussi/quantstats)
+- [Riskfolio](https://riskfolio-lib.readthedocs.io/en/latest/examples.html)
+### Portfolio Optimization
+- https://github.com/cvxgrp/cvxportfolio
 ### Trading Calendar
 - https://github.com/GeorgeTelles
 - https://github.com/quantopian/trading_calendars
 ### News
 - [Newspaper](https://github.com/codelucas/newspaper/)
-
+### Others
+- [Awesome Python: list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
 ## 📈 Quantitative Strategies & Backtesting
 
 ### Introduction to Backtesting
+- https://www.quantstart.com/articles/Beginners-Guide-to-Quantitative-Trading/
+- https://www.quantstart.com/articles/How-to-Identify-Algorithmic-Trading-Strategies/
+- https://www.quantstart.com/articles/understanding-equities-data/
+- https://www.quantstart.com/articles/simple-versus-advanced-systematic-trading-strategies-which-is-better/
+- https://www.quantstart.com/articles/backtesting-systematic-trading-strategies-in-python-considerations-and-open-source-frameworks/
+- https://www.quantstart.com/articles/Top-5-Essential-Beginner-Books-for-Algorithmic-Trading/
+- https://www.quantstart.com/articles/Best-Programming-Language-for-Algorithmic-Trading-Systems/
+- https://www.quantstart.com/articles/Choosing-a-Platform-for-Backtesting-and-Automated-Execution/
+- https://www.quantstart.com/articles/Free-Quantitative-Finance-Resources/
 - https://letianzj.github.io/quanttrading-backtest.html
 - https://www.youtube.com/watch?v=WBPnN8DIMYI&ab_channel=MartinBel
 
 ### Infrastructure
-
-
+- https://www.quantstart.com/articles/setting-up-an-algorithmic-trading-business/
+- https://www.quantstart.com/articles/Research-Backtesting-Environments-in-Python-with-pandas/
+- https://www.quantstart.com/articles/Backtesting-a-Moving-Average-Crossover-in-Python-with-pandas/
+- https://www.quantstart.com/articles/Securities-Master-Databases-for-Algorithmic-Trading/
+- https://www.quantstart.com/articles/Successful-Backtesting-of-Algorithmic-Trading-Strategies-Part-I/
+- https://www.quantstart.com/articles/Successful-Backtesting-of-Algorithmic-Trading-Strategies-Part-II/
+- 
 ### Mean Reversion
 - https://www.quantstart.com/articles/Basics-of-Statistical-Mean-Reversion-Testing/
+- https://www.quantstart.com/articles/Basics-of-Statistical-Mean-Reversion-Testing-Part-II/
 - https://letianzj.github.io/mean-reversion.html
 ### Momentum
 - https://github.com/sangamkotalwar/Classification-and-Regression-based-ML-for-Finance/blob/master/Regression%20Based%20Machine%20Learning%20for%20Algorithmic%20Trading/Trend_Following_Strategies_Penalized_Regression_Approach.ipynb
@@ -268,6 +343,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ### Pairs Trading
 - https://www.quantstart.com/articles/Backtesting-An-Intraday-Mean-Reversion-Pairs-Strategy-Between-SPY-And-IWM/
 - https://www.quantstart.com/articles/kalman-filter-based-pairs-trading-strategy-in-qstrader/
+- https://www.quantstart.com/articles/Dynamic-Hedge-Ratio-Between-ETF-Pairs-Using-the-Kalman-Filter/
 - https://github.com/sangamkotalwar/Classification-and-Regression-based-ML-for-Finance/blob/master/Regression%20Based%20Machine%20Learning%20for%20Algorithmic%20Trading/Pairs_Trading_and_Linear_Regression.ipynb
 - https://blog.quantinsti.com/kalman-filter-techniques-statistical-arbitrage-china-futures-market-python/
 - https://www.pythonforfinance.net/2018/07/04/mean-reversion-pairs-trading-with-inclusion-of-a-kalman-filter/
@@ -278,7 +354,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - https://hudson-and-thames-arbitragelab.readthedocs-hosted.com/en/latest/index.html
 - https://letianzj.github.io/cointegration-pairs-trading.html
 - https://blog.quantinsti.com/pair-trading-strategy-backtesting-using-quantstrat/
-- https://blog.quantinsti.com/pair-trading-strategy-backtesting-using-quantstrat/
+- https://www.quantstart.com/articles/aluminum-smelting-cointegration-strategy-in-qstrader/
 
 ### Arbitrage
 - https://www.youtube.com/watch?v=W58GUkZ9MyQ&ab_channel=Boontext
@@ -291,18 +367,26 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 ### Volatility
 - [Referência: Volatility Trading](https://www.trading-volatility.com/Trading-Volatility.pdf)
-  
+
+### Others
+- https://www.quantstart.com/articles/Continuous-Futures-Contracts-for-Backtesting-Purposes/
+- 
 ### Strategies Library
+- https://www.quantconnect.com/learning/articles/investment-strategy-library
 - https://www.quantrocket.com/code/
 - https://github.com/QuantInsti/blueshift-demo-strategies
 - https://github.com/sangamkotalwar/Classification-and-Regression-based-ML-for-Finance
+- https://github.com/Auquan/Tutorials
 
 ## 🧮 Datasets & APIs
 
+### Ticker Info
+- [B3 - Instrumentos Cadastrados](https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/boletim-diario/dados-publicos-de-produtos-listados-e-de-balcao/)
+- [OpenFIGI](https://www.openfigi.com/) - Financial Instrument Global Identifier
 ### OHLC
 Yahoo Finance, Polygon.io, Alpha Vantage
 - [Yahoo Finance](https://finance.yahoo.com/) via `yfinance`
-- [Quandl](https://www.quandl.com/) — Dados financeiros (alguns gratuitos)
+- [Quandl (Nasdaq Data Link)](https://data.nasdaq.com/institutional-investors) — Dados financeiros (alguns gratuitos)
 - [Stooq](https://stooq.com/)
 - [Polygon.IO](https://polygon.io/)
 - [Alpha Vantage](https://www.alphavantage.co/) 
@@ -313,28 +397,42 @@ Yahoo Finance, Polygon.io, Alpha Vantage
 - [Intrinio](https://intrinio.com/)
 - [TraderMate](https://tradermade.com/)
 - [financial datasets](https://www.financialdatasets.ai/)
-
+- [twelvedata](https://twelvedata.com/)
+- [stockdata.org](https://www.stockdata.org/)
+- [Aletheia](https://aletheiaapi.com/)
+- [hotstoks](https://hotstoks.com/)
+- [statistica.ai](https://www.statistica.ai/landing)
+### FX
+- [Open Exchange Rates](https://openexchangerates.org/)
+- [BCB - Cotações de Moedas](https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes)
 ### Technical Indicators
 Yahoo Finance, TA-Lib
 
 ### Macroeconomic Data
 FRED, Pandas DataReader, Eurostat
 #### Worldwide
-- [IMF Data](http://www.imf.org/en/Data) - The standard reference for macro data.
+- [IMF Data](http://www.imf.org/en/Data) — The standard reference for macro data.
+- [theGlobalEconomy.com](https://www.theglobaleconomy.com/)
+- [econdb](https://www.econdb.com/home)
 #### US
 - [FRED](https://fred.stlouisfed.org/) — Indicadores macroeconômicos dos EUA
 - [NBER](https://back.nber.org/releases/)
 - [OECD](https://data-explorer.oecd.org/)
+- [BEA](https://www.bea.gov/) — US Bureau of Economic Analysis
 #### UE
 - [Eurostat](https://ec.europa.eu/eurostat/web/main/data/database)
 #### Brasil
 - [ANBIMA](https://www.anbima.com.br/) — Curvas, fundos e indicadores do Brasil
 - [BCB](https://dadosabertos.bcb.gov.br/)
 - [RSS BCB](https://www.bcb.gov.br/acessoinformacao/rss)
+- [IBGE - Instituto Brasileiro de Geografia e Estatística](https://www.ibge.gov.br/)
+- [CVM - Comissão de Valores Mobiliários]()
+
 ### Financial Reporting
 SEC EDGAR, 10-K, 10-Q, 8-K fillings
 
--[SEC Form](https://www.secform4.com/)
+- [SEC Form](https://www.secform4.com/)
+
 ### News
 Polygon.io, NewsAPI
 
@@ -342,6 +440,7 @@ Polygon.io, NewsAPI
 Yahoo Finance, paids data providers, or web scraping
 - [Fundamentus](https://www.fundamentus.com.br/index.php)
 - [Financial Modeling Prep](https://site.financialmodelingprep.com/)
+- [financial datasets](https://www.financialdatasets.ai/)
 
 ### Alternative Data
 Web Traffic, YouTube Revenue, Satellite Imagery, Social Media, Sentiment from X/Twitter, Reddit, Glassdoor, App Usage, Credit Card Data
@@ -355,11 +454,12 @@ Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions
 
 ### Other
 - [Reddit Datasets](https://www.reddit.com/r/datasets/)
-
-
+- [List of Public APIs](https://github.com/public-apis/public-apis)
+- [Free Currency Exchange Rates API](https://github.com/fawazahmed0/exchange-api)
 ## 🔗 Posts and Articles
 
 - [Bloomberg API Usage - Yiyang Zhang](https://yiyangclarkzhang0201.com/code-and-data/bloomberg/)
+- [Quantstart](https://www.quantstart.com/)
 - [Using ArcticDB for Financial Analysis with Python and yFinance- Tikam Singh Alma](https://dev.to/tikam02/using-arcticdb-for-financial-analysis-with-python-and-yfinance-9oj)
 - [Python for Finance](https://www.pythonforfinance.net/)
 - [The Market Is Smarter Than You Are – Ben Carlson](https://awealthofcommonsense.com/2021/06/the-market-is-smarter-than-you-are/)
@@ -370,6 +470,7 @@ Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions
 ## 🧪 GitHub Repos
 
 - [openai/gym](https://github.com/openai/gym) — Ambientes para RL
+- [AI-Stuff/hudson-and-thames-research](https://github.com/AI-Stuff/hudson-and-thames-research)
 - [willmcgugan/rich](https://github.com/willmcgugan/rich) — Formatação de texto no terminal
 - [wilsonfreitas/awesome-quan](https://github.com/wilsonfreitas/awesome-quant)
 - [wilsonfreitas/python-bizdays](https://github.com/wilsonfreitas/python-bizdays) — Cálculo de dias úteis com calendários do Brasil
@@ -377,18 +478,30 @@ Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions
 - [jupyter/notebook](https://github.com/jupyter/notebook) — Projeto base dos Jupyter Notebooks
 - [lobobruno/brFinance](https://github.com/lobobruno/brFinance)
 - [glourencoffee/pybov](https://github.com/glourencoffee/pybov)
+- [glourencoffee/pycvm](https://github.com/glourencoffee/pycvm)
 - [dude333/rapina](https://github.com/dude333/rapina)
 - [dude333/rapinav2](https://github.com/dude333/rapinav2)
 - [PedroDnT/CVM_FinancialStatements_DB](https://github.com/PedroDnT/CVM_FinancialStatements_DB)
 - [eudesrodrigo/brFinance](https://github.com/eudesrodrigo/brFinance)
+- [PedroDnT/b3db](https://github.com/PedroDnT/b3db)
 - [PedroDnT/BRAPI_API_Wrapper](https://github.com/PedroDnT/BRAPI_API_Wrapper)
 - [gustavomoers/BrazilianMarketDataCollector](https://github.com/gustavomoers/BrazilianMarketDataCollector)
 - [gustavomoers/FinanceDash](https://github.com/gustavomoers/FinanceDash)
 - [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)
 - [adolfocorreia/portfolio](https://github.com/adolfocorreia/portfolio)
-
+- [shashankvemuri/Finance](https://github.com/shashankvemuri/Finance)
+- [dss-Diego/br_mfunds](https://github.com/dss-Diego/br_mfunds)
+- [dss-Diego/br_stocks](https://github.com/dss-Diego/br_stocks)
+- [Lucasantos77/capital_market_explorer](https://github.com/Lucasantos77/capital_market_explorer)
+- [drsansao/cvmpy](https://github.com/drsansao/cvmpy)
+- [PythonicCafe/mercados](https://github.com/PythonicCafe/mercados)
+- [royopa/captura_downloads](https://github.com/royopa/captura_downloads)
+- [royopa/anbima_scraper](https://github.com/royopa/anbima_scraper)
+- [BDonadelli/Finance-playground](https://github.com/BDonadelli/Finance-playground)
+- [gusamarante/pyaa](https://github.com/gusamarante/pyaa)
 ## 🧰 Useful Tools
-
+- [Reddit - Algotrading](https://www.reddit.com/r/algotrading/)
+- [MKT News](https://mktnews.net/) — Free Market News
 - [libgen](https://libgen.is/) — Livros
 - [Hedgeye Macro Quads](https://app.hedgeye.com/assets/user_guides/gip-model.png)
 - [excalidraw](https://excalidraw.com/) — Criação de diagramas simples
@@ -433,6 +546,7 @@ Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions
 - [Panel](https://panel.holoviz.org/)
 - [Solara](https://solara.dev/)
 - [Streamlit](https://streamlit.io/)
+- [Taipy](https://taipy.io/)
 - [marimo](https://marimo.io/)
 
 ## 🧠 Academic Articles
@@ -446,7 +560,7 @@ Referências acadêmicas que li ou estou estudando, com foco em finanças, estat
 - [SSRN Economics](http://ssrn.com/en/index.cfm/ern/) - Working papers, no journal publications.
 - [Google Scholar](http://scholar.google.com/) - Searching academic literature in general. Features author pages and citation counters. If you look for economic writings only, IDEAS would be more powerful.
 
-## Career
+## 💼 Career
 
 ### Interview Prep
 - [interview warmup](https://www.cloudskillsboost.google/interview_warmup/)

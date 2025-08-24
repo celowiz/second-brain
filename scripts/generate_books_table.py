@@ -1,7 +1,7 @@
 import csv
 import sys
 import requests
-from urllib.parse import quote, urlparse, parse_qs, urlencode
+from urllib.parse import quote
 
 TEMPLATE = "| ![cover]({cover_url}) | {title} | [![Amazon]({amazon_badge})]({amazon_url}) | {badges} |"
 DEFAULT_COVER = "https://openlibrary.org/images/icons/avatar_book.png"

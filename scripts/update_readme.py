@@ -1,5 +1,4 @@
 import sys
-import re
 from pathlib import Path
 
 def update_readme_with_table(readme_path: str, table_content: str):
