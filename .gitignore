@@ -1,0 +1,32 @@
+# Histórico local de tráfego
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env
+.venv
+ENV/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/*.db
+data/*.xlsx
+data/*.csv
+!books.csv  # Don't ignore books.csv in root
+
+# Logs
+*.log
+logs/

@@ -1,0 +1,50 @@
+name: Track GitHub Traffic
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # Runs daily at 02:00 UTC
+  workflow_dispatch:      # Allows manual trigger
+
+# Add permissions for GitHub token
+permissions:
+  contents: write
+  repository-projects: read
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+
+      - name: Track repository traffic
+        run: python scripts/track_views.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: Update repository traffic statistics 📊
+
+          - Daily traffic data updated
+          - Views and clones tracked
+          - Data stored in SQLite database"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
