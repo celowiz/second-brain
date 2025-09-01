@@ -87,7 +87,7 @@ This repository is my public "Second Brain": a personal curation of content I fi
   - [✍️ Writing](#️-writing)
   - [🔄 Sharing](#-sharing)
 - [🧠 Academic Articles](#-academic-articles)
-- [💼 Career](#-career)
+- [💼 Career Resources](#-career-resources)
   - [🎯 Interview Prep](#-interview-prep)
   - [💻 Coding Exercises](#-coding-exercises)
   - [🖥 Virtual Job Simulations](#-virtual-job-simulations)
@@ -126,9 +126,12 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ## 🎓 Learning Materials
 
 ### 📊 Data Science and Statistics
-- [Data Science do Zero – Joel Grus (GitHub)](https://github.com/joelgrus/data-science-from-scratch)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [Awesome Data Science Repository (GitHub)](https://github.com/academic/awesome-datascience)
+- [Microsoft: Data Science For Begginers](https://github.com/microsoft/Data-Science-For-Beginners)
+- [OSSU: Open Source Society University (GitHub)](https://github.com/ossu/data-science)
 - [Modern Statistics with R](https://mdsr-book.github.io/mdsr2e/)
-- [Udemy: Apache Kafka Series - Learn Apache Kafka for Beginners v3](https://www.udemy.com/course/apache-kafka/)
+- [Virgilio: Data Science](https://virgili0.github.io/Virgilio/#table-of-contents)
 
 ### 💰 Quantitative Finance
 - [WorldQuant University](https://www.wqu.edu/mscfe) — MSc in Financial Engineering. Tuition: Free 
@@ -148,7 +151,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 ### 📈 Econometrics and Economy
 - [Anbima: Conceitos Básicos de Economia e Finanças](https://www.anbima.com.br/data/files/42/40/0C/33/466A4810EA926748882BA2A8/CPA-10-Cap3.pdf)
-- [QuantEcon – Python para Economia](https://quantecon.org/)
+- [QuantEcon: Python para Economia](https://quantecon.org/)
 - [CORE Econ](https://www.core-econ.org/)
 - [MIT OCW Economics](http://ocw.mit.edu/courses/economics/) - Over 100 courses covering all major fields of economics. Courses include prerequisites, recommended textbooks, lecture slides, and assignments. Undergraduate and graduate programs.
 - [edX Economics](https://www.edx.org/course/subject/economics-finance) - Introductory topics, few prerequisites.
@@ -218,10 +221,13 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ### 💻 Programming
 
 #### 🐍 Python
+- [Coursera: Programming for Everybody by University of Michigan](https://www.coursera.org/learn/python)
 - [Microsoft: Introduction to Python](https://vscodeedu.com/courses/intro-to-python)
 - [freecodecamp: Legacy Python for Everybody](https://www.freecodecamp.org/learn/python-for-everybody/)
 - [freecodecamp: Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
 - [freecodecamp: Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python/)
+- [codeacademy: Learn Python](https://www.codecademy.com/learn/learn-python)
+- [datacamp: Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 
 #### 🌐 Web Development
 - [The Odin Project](https://www.theodinproject.com/)
@@ -247,17 +253,17 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ## 🐍 Python Libraries
 
 ### 🧑‍💻 Dev Tools
-- [uv]() — Modern, fast package installers for Python
-- [ruff]() — Fast linter and code formatter
-- [pytest]() — A testing framework for Python
+- [uv](https://github.com/astral-sh/uv) — Modern, fast package installers for Python
+- [ruff](https://github.com/astral-sh/ruff) — Fast linter and code formatter
+- [pytest](https://github.com/pytest-dev/pytest) — A testing framework for Python
 ### 🔢 Numerical Operations and Data Manipulation
-- [numpy]()
-- [pandas]()
+- [numpy](https://github.com/numpy/numpy) — Fundamental package for scientific computing with Python
+- [pandas](https://github.com/pandas-dev/pandas) — Flexible and powerful data analysis / manipulation library for Python
 ### 📥 Data Ingestion
-- [requests]() — HTTP library for API queries and web scraping
-- [BeautifulSoup]() — HTML parsing library for web scraping
+- [requests](https://github.com/psf/requests) — HTTP library for API queries and web scraping
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) — HTML parsing library for web scraping
 ### ✅ Data Validation
-- [pydantic]() —  Data validation for Python objects
+- [pydantic](https://github.com/pydantic/pydantic) — Data validation using Python type hints
 ### 💹 Financial Data Sources
 - [Alpha Vantage](https://github.com/RomelTorres/alpha_vantage)
 - [Stooq](https://github.com/wegar-2/pystooq)
@@ -270,9 +276,9 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ### 📐 Technical Indicators
 - [TA-Lib](https://github.com/TA-Lib/ta-lib-python)
 ### 📊 Data Visualization
-- [matplotlib]()
+- [matplotlib](https://github.com/matplotlib/matplotlib) — Plotting with Python
 - [mplfinance](https://github.com/matplotlib/mplfinance)
-- [plotly]()
+- [plotly](https://github.com/plotly/plotly.py) — Interactive graphing library for Python
 - [light-weight-charts](https://github.com/louisnw01/lightweight-charts-python)
 ### 🎯 Backtesting
 - [QSTrader](https://www.quantstart.com/qstrader/)
@@ -300,11 +306,11 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [edgar](https://pypi.org/project/edgar/) — Python Package for SEC EDGAR Data
 - [python-edgar](https://pypi.org/project/python-edgar/) — Python Package for SEC EDGAR Filing Access
 ### 🖥 User Interface (UI)
-- Flet
-- RerportLab
-- Streamlit
+- [Flet](https://github.com/flet-dev/flet) - Build realtime web, mobile and desktop apps in Python.
+- [Streamlit](https://github.com/streamlit/streamlit)
+- [Gradio](https://github.com/gradio-app/gradio)
 - [Taipy](https://github.com/Avaiga/taipy)
-- [marimo](https://github.com/marimo-team/marimo)
+- [Marimo](https://github.com/marimo-team/marimo)
 
 ### 🗃 Database
 - [OLTP](https://en.wikipedia.org/wiki/Online_transaction_processing)
@@ -604,7 +610,7 @@ Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions
 
 [[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
 
-## 💼 Career
+## 💼 Career Resources
 
 ### 🎯 Interview Prep
 - [Google Interview Warmup](https://www.cloudskillsboost.google/interview_warmup/)
