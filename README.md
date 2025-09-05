@@ -15,7 +15,6 @@ Este repositório é meu "Second Brain" público: uma curadoria pessoal de conte
 > 🛠️ Este repositório está em constante evolução.
 
 <br>
-<br>
 
 ![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png "United States")
 This repository is my public "Second Brain": a personal curation of content I find valuable. Organized in the style of `awesome-{X}` repositories, it brings together books, courses, articles, projects, tools, and insights on topics I study and work with daily: data science, quantitative finance, data engineering, trading algorithms, economics, machine learning, and related fields.
@@ -134,7 +133,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Virgilio: Data Science](https://virgili0.github.io/Virgilio/#table-of-contents)
 
 ### 💰 Quantitative Finance
-- [WorldQuant University](https://www.wqu.edu/mscfe) — MSc in Financial Engineering. Tuition: Free 
+- [🎓 WorldQuant University](https://www.wqu.edu/mscfe) — MSc in Financial Engineering. Tuition: Free 
 - [Quantitative Trading (Ernest Chan)](https://www.epchan.com/)  — (livro + cursos)
 - [Algotrading101: Algorithmic Trading Immersive Course](https://course.algotrading101.com/courses/13378/lectures/49762046)
 - [OCW: Math of Finance - MIT](https://ocw.uci.edu/courses/math_176_math_of_finance.html)
@@ -148,6 +147,9 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Coursera: Financial Markets by Yale](https://www.coursera.org/learn/financial-markets-global)
 - [Coursera: Trading Strategies in Emerging Markets Specialization by ISB](https://www.coursera.org/specializations/trading-strategy)
 - [Coursera: Financial Engineering and Risk Management – Columbia](https://www.coursera.org/specializations/financialengineering)
+- [Coursera: Introduction to Trading, Machine Learning & GCP](https://www.coursera.org/learn/introduction-trading-machine-learning-gcp)
+- []()
+- [📚 J.P.Morgan/Reuters: RiskMetrics - Technical Document](https://www.msci.com/documents/10199/5915b101-4206-4ba0-aee2-3449d5c7e95a)
 
 ### 📈 Econometrics and Economy
 - [Anbima: Conceitos Básicos de Economia e Finanças](https://www.anbima.com.br/data/files/42/40/0C/33/466A4810EA926748882BA2A8/CPA-10-Cap3.pdf)
@@ -179,7 +181,8 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [DeepLearning.AI: AI Python for Beginners](https://www.deeplearning.ai/short-courses/ai-python-for-beginners/)
 - [Bloomberg: Foundations of Machine Learning](https://bloomberg.github.io/foml/#home)
 - [Coursera: Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning)
-
+- [Google: Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
+- 
 #### 💹 AI Applied to Finance
 - [Coursera: Machine Learning for Trading Specialization by New York Institute of Finance](https://www.coursera.org/specializations/machine-learning-trading)
 - [Coursera: Investment Management with Python and Machine Learning Specialization by EDHEC](https://www.coursera.org/specializations/investment-management-python-machine-learning)
@@ -228,6 +231,16 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [freecodecamp: Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python/)
 - [codeacademy: Learn Python](https://www.codecademy.com/learn/learn-python)
 - [datacamp: Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
+
+#### 🐱 GitHub
+- [Documentation](https://docs.github.com/en/get-started)
+- [GitHub Skills](https://skills.github.com/)
+- [▶️ Traversy Media: Git & GitHub Crash Course](https://www.youtube.com/watch?v=vA5TTz6BXhY&ab_channel=TraversyMedia)
+- [Gitub Learn (Certifications)](https://learn.github.com/certifications)
+- [Microsoft: GotHub Foundation Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification)
+- [Microsoft: GitHub Actions Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-actions/?practice-assessment-type=certification)
+- [Microsoft: GitHub Copilot Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/?practice-assessment-type=certification)
+
 
 #### 🌐 Web Development
 - [The Odin Project](https://www.theodinproject.com/)
@@ -311,6 +324,11 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Gradio](https://github.com/gradio-app/gradio)
 - [Taipy](https://github.com/Avaiga/taipy)
 - [Marimo](https://github.com/marimo-team/marimo)
+- [Ploly Dash](https://github.com/plotly/dash)
+- [NiceGUI](https://github.com/zauberzeug/nicegui)
+- [Panel](https://github.com/holoviz/panel)
+- [Solara](https://github.com/widgetti/solara)
+- [Reflex](https://github.com/reflex-dev/reflex)
 
 ### 🗃 Database
 - [OLTP](https://en.wikipedia.org/wiki/Online_transaction_processing)
@@ -343,6 +361,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Newspaper - Article scraping & curation](https://github.com/codelucas/newspaper/)
 ### 📦 Others
 - [Awesome Python](https://github.com/vinta/awesome-python) — List of awesome Python frameworks, libraries, software and resources
+- [agents.md](https://github.com/openai/agents.md) —  a simple, open format for guiding coding agents
 
 [[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
 
@@ -558,6 +577,10 @@ Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions
 - [Pythonium Regex](https://pythonium.net/regex) — Teste de expressões regulares em Python
 - [Shields.io](https://shields.io/) — Geração de badges Markdown
 - [Notion](https://notion.so/) — Organização pessoal e projetos
+- [GitHub Ranking Repositories](https://gitstar-ranking.com/repositories)
+- [GitHub Profile Generator](https://profile-readme-generator.com/)
+- [Markdown Referece](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Algotrading Reddit](https://www.reddit.com/r/algotrading/)
 
 ### 📡 Live Data
 - [Sina Commodities Quotes](https://vip.stock.finance.sina.com.cn/quotes_service/view/qihuohangqing.html#titlePos_1)
@@ -588,14 +611,14 @@ Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions
   - [GitHub Pages](https://pages.github.com/) - Simple static websites.
   - [GitHub LFS](https://git-lfs.github.com/) - Large file storage.
 - [IPython Notebooks](http://ipython.org/) - An interactive alternative to LaTeX and Word. See examples how notebooks look like in [data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) and [the gallery](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks).
-- [binder](https://mybinder.org/)
+- [Binder](https://mybinder.org/)
 - [Quarto](https://quarto.org/)
 - [Voilà](https://voila.readthedocs.io/en/stable/)
 - [Panel](https://panel.holoviz.org/)
 - [Solara](https://solara.dev/)
 - [Streamlit](https://streamlit.io/)
 - [Taipy](https://taipy.io/)
-- [marimo](https://marimo.io/)
+- [Marimo](https://marimo.io/)
 
 [[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
 
