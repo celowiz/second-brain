@@ -57,7 +57,7 @@ def add_affiliate_tag(amazon_url):
     
     # Add affiliate tag
     separator = "&tag=" if "?" in amazon_url else "?tag="
-    return f"{amazon_url}{separator}celowiz-20"
+    return f"{amazon_url}{separator}celowiz05-20"
 
 def get_cover_url(isbn):
     """Get the cover URL, falling back to placeholder if needed"""
