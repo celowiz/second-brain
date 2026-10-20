@@ -5,7 +5,7 @@
 [![Track Traffic](https://github.com/celowiz/second-brain/actions/workflows/track-traffic.yml/badge.svg)](https://github.com/celowiz/second-brain/actions/workflows/track-traffic.yml)
 [![Validate CSV](https://github.com/celowiz/second-brain/actions/workflows/validate_csv.yml/badge.svg)](https://github.com/celowiz/second-brain/actions/workflows/validate_csv.yml)
 
-*Last Updated: 2026-10-19 22:09:02 UTC-3*
+*Last Updated: 2026-10-19 22:43:46 UTC-3*
 
 <br>
 
@@ -22,7 +22,7 @@ This repository is my public "Second Brain": a personal curation of content I fi
 > 🛠️ This repository is constantly evolving.
 
 
-> 🏷️ **Legenda de status** (só marcação, nada foi removido): `❌ 404` página não encontrada · `⏸️ fora do ar` site fora do ar na última verificação · `🤖 bloqueia bot` abre no navegador, mas recusa verificação automática · `🔗 sem URL` item ainda sem link · `🔁 duplicado` aparece mais de uma vez na lista · `📦 arquivado` repositório arquivado (só leitura) · `🔒 exige login` conteúdo exige login
+> 🏷️ **Legenda de status**: `🤖 bloqueia bot` abre no navegador, mas recusa verificação automática · `📦 arquivado` repositório arquivado (só leitura) · `🔒 exige login` conteúdo exige login
 
 
 ## 📑 Table of Contents <!-- omit in toc -->
@@ -89,7 +89,6 @@ This repository is my public "Second Brain": a personal curation of content I fi
   - [🌴 Brazil](#-brazil)
   - [🌟 Alternative Data](#-alternative-data)
   - [📦 Data Catalogs](#-data-catalogs)
-  - [📝 Notas de seção (texto a converter em itens)](#-notas-de-seção-texto-a-converter-em-itens)
 - [🇧🇷 Open Source Brasil](#-open-source-brasil)
 - [🧠 Papers \& Academic Sources](#-papers--academic-sources)
 - [📰 Community \& Media](#-community--media)
@@ -122,8 +121,6 @@ This repository is my public "Second Brain": a personal curation of content I fi
   - [🐍 Python](#-python-1)
   - [📊 Data Science](#-data-science-1)
   - [🤖 AI \& Agents](#-ai--agents)
-- [🗂️ Curation Backlog](#️-curation-backlog)
-  - [🗂️ Itens vazios (preservados)](#️-itens-vazios-preservados)
 
 <!-- tocstop -->
 
@@ -132,10 +129,6 @@ This repository is my public "Second Brain": a personal curation of content I fi
 This is my personal reading and reference library. It includes books I've read, am currently reading, or are on my reading list. The idea is to keep a visual and thematic record that helps me revisit ideas, as well as recommend great titles to those browsing this site.
 
 Categories are identified by badges, and covers are automatically loaded by ISBN via Open Library. When Open Library has no cover, the script falls back to Google Books and then to the Amazon image.
-
-**📖 Referências fora da estante** (citadas sem link de compra):
-
-- Marcos López de Prado — _Advances in Financial Machine Learning_ `🔗 sem URL`
 
 > 💡 *This panel contains affiliate links. If you find something useful and make a purchase, I may earn a small commission* ☕. *Thanks for the support.* ❤
 
@@ -162,6 +155,17 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 | ![cover](https://covers.openlibrary.org/b/isbn/9781098166304-M.jpg?default=false) | **AI Engineering: Building Applications with Foundation Models** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/1098166302/?tag=celowiz05-20) | ![Data Science](https://img.shields.io/badge/Topic-Data%20Science-orange) ![Programming](https://img.shields.io/badge/Type-Programming-brightgreen) |
 | ![cover](https://images-na.ssl-images-amazon.com/images/P/1098119061.01._SCLZZZZZZZ_SY270_.jpg) | **Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/1098119061/?tag=celowiz05-20) | ![Data Engineering](https://img.shields.io/badge/Topic-Data%20Engineering-grey) ![Programming](https://img.shields.io/badge/Type-Programming-brightgreen) |
 | ![cover](https://covers.openlibrary.org/b/isbn/9780393352245-M.jpg?default=false) | **A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/0393352242/?tag=celowiz05-20) | ![Finance](https://img.shields.io/badge/Topic-Finance-orange) |
+| ![cover](https://covers.openlibrary.org/b/isbn/9781119482086-M.jpg?default=false) | **Advances in Financial Machine Learning** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/1119482089/?tag=celowiz05-20) | ![Quant](https://img.shields.io/badge/Topic-Quant-lightblue) ![Data Science](https://img.shields.io/badge/Topic-Data%20Science-orange) |
+| ![cover](https://images-na.ssl-images-amazon.com/images/P/1108792898.01._SCLZZZZZZZ_SY270_.jpg) | **Machine Learning for Asset Managers** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/1108792898/?tag=celowiz05-20) | ![Quant](https://img.shields.io/badge/Topic-Quant-lightblue) ![Data Science](https://img.shields.io/badge/Topic-Data%20Science-orange) |
+| ![cover](https://covers.openlibrary.org/b/isbn/9781119821328-M.jpg?default=false) | **Quantitative Portfolio Management: The Art and Science of Statistical Arbitrage** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/1119821320/?tag=celowiz05-20) | ![Quant](https://img.shields.io/badge/Topic-Quant-lightblue) |
+| ![cover](https://covers.openlibrary.org/b/isbn/9781119789796-M.jpg?default=false) | **Advanced Portfolio Management: A Quant's Guide for Fundamental Investors** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/1119789796/?tag=celowiz05-20) | ![Quant](https://img.shields.io/badge/Topic-Quant-lightblue) ![Finance](https://img.shields.io/badge/Topic-Finance-orange) |
+| ![cover](https://covers.openlibrary.org/b/isbn/9788568905159-M.jpg?default=false) | **Os axiomas de Zurique** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/8568905153/?tag=celowiz05-20) | ![Finance](https://img.shields.io/badge/Topic-Finance-orange) ![Psychology](https://img.shields.io/badge/Topic-Psychology-lightgrey) |
+| ![cover](https://covers.openlibrary.org/b/isbn/9786555111101-M.jpg?default=false) | **A psicologia financeira: lições atemporais sobre fortuna, ganância e felicidade** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/6555111100/?tag=celowiz05-20) | ![Finance](https://img.shields.io/badge/Topic-Finance-orange) ![Psychology](https://img.shields.io/badge/Topic-Psychology-lightgrey) |
+| ![cover](https://images-na.ssl-images-amazon.com/images/P/855082108X.01._SCLZZZZZZZ_SY270_.jpg) | **O preço do tempo: a verdadeira história dos juros** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/855082108X/?tag=celowiz05-20) | ![Finance](https://img.shields.io/badge/Topic-Finance-orange) |
+| ![cover](https://covers.openlibrary.org/b/isbn/9788595080805-M.jpg?default=false) | **O Investidor Inteligente** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/8595080801/?tag=celowiz05-20) | ![Finance](https://img.shields.io/badge/Topic-Finance-orange) |
+| ![cover](https://images-na.ssl-images-amazon.com/images/P/8595085064.01._SCLZZZZZZZ_SY270_.jpg) | **Crash: Uma breve história da economia** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/8595085064/?tag=celowiz05-20) | ![Finance](https://img.shields.io/badge/Topic-Finance-orange) |
+| ![cover](https://images-na.ssl-images-amazon.com/images/P/6556600202.01._SCLZZZZZZZ_SY270_.jpg) | **O Mais Importante para o Investidor: Lições de um Gênio do Mercado Financeiro** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/6556600202/?tag=celowiz05-20) | ![Finance](https://img.shields.io/badge/Topic-Finance-orange) |
+| ![cover](https://images-na.ssl-images-amazon.com/images/P/8550808784.01._SCLZZZZZZZ_SY270_.jpg) | **Dominando o ciclo de mercado: aprenda a reconhecer padrões para investir com segurança** | [![Amazon](https://img.shields.io/badge/-Buy%20on%20Amazon-black)](https://www.amazon.com.br/dp/8550808784/?tag=celowiz05-20) | ![Finance](https://img.shields.io/badge/Topic-Finance-orange) |
 
 ## 🎓 Learning Materials
 
@@ -195,7 +199,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [QuantEcon: Python para Economia](https://quantecon.org/)
 - [CORE Econ](https://www.core-econ.org/)
 - [MIT OCW Economics](http://ocw.mit.edu/courses/economics/) - Over 100 courses covering all major fields of economics. Courses include prerequisites, recommended textbooks, lecture slides, and assignments. Undergraduate and graduate programs.
-- [edX Economics](https://www.edx.org/course/subject/economics-finance) - Introductory topics, few prerequisites. `❌ 404`
 - [Khan Academy: Economics](https://www.khanacademy.org/economics-finance-domain) - Elementary topics.
 
 ### 📊 Data Science
@@ -262,11 +265,9 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [DataExpert.io: The Data Engineering Handbook](https://github.com/DataExpert-io/data-engineer-handbook)
 - [DataTalksClub: Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 - [Summer Data Engineering Roadmap](https://www.ssp.sh/blog/data-engineering-roadmap/)
-- [Prefect Academy](https://prefect.io/academy) `❌ 404`
 - [Coursera: DeepLearning.AI Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/data-engineering)
 - [Coursera: Data Engineering Basics for Everyone by IBM](https://www.edx.org/learn/data-engineering/ibm-data-engineering-basics-for-everyone)
 - [Coursera: ETL and Data Pipelines with Shell, Airflow and Kafka](https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka?irclickid=11Uxwf1P4xyNR8G2-TRPdSsQUkA0KPSn%3AVCoWM0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3294490&utm_content=b2c#syllabus)
-- [Coursera: Data Engineering](https://www.coursera.org/professional-certificates/data-engineering?utm_campaign=dlai-lp&utm_medium=institutions&utm_source=deeplearning-ai) `🔁 duplicado`
 - [Udemy: The Complete Hands-On Introduction to Apache Airflow 3](https://www.udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow/) `🤖 bloqueia bot`
 - [AWS Tutorial: Build a Full Stack React Application](https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/)
 - [AWS Educate](https://aws.amazon.com/education/awseducate/)
@@ -309,26 +310,10 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ## 📈 Quant Research
 
 ### 🔄 Getting Started
-- [Beginner's Guide to Quantitative Trading](https://www.quantstart.com/articles/Beginners-Guide-to-Quantitative-Trading/) `⏸️ fora do ar`
-- [How to Identify Algorithmic Trading Strategies](https://www.quantstart.com/articles/How-to-Identify-Algorithmic-Trading-Strategies/) `⏸️ fora do ar`
-- [Understanding Equities Data](https://www.quantstart.com/articles/understanding-equities-data/) `⏸️ fora do ar`
-- [Simple vs. Advanced systematic Trading Strategies (which is better)](https://www.quantstart.com/articles/simple-versus-advanced-systematic-trading-strategies-which-is-better/) `⏸️ fora do ar`
-- [Backtesting Systematic Trading Strategies in Python (considerations and open source frameworks)](https://www.quantstart.com/articles/backtesting-systematic-trading-strategies-in-python-considerations-and-open-source-frameworks/) `⏸️ fora do ar`
-- [Top 5 Essential Begginer Books for Algorithmic Trading](https://www.quantstart.com/articles/Top-5-Essential-Beginner-Books-for-Algorithmic-Trading/) `⏸️ fora do ar`
-- [Best Programming Languages for Algorithmic Trading Systems](https://www.quantstart.com/articles/Best-Programming-Language-for-Algorithmic-Trading-Systems/) `⏸️ fora do ar`
-- [Choosing a Platform for Backtesting and Automated Execution](https://www.quantstart.com/articles/Choosing-a-Platform-for-Backtesting-and-Automated-Execution/) `⏸️ fora do ar`
-- [Free Quantitative Finance Resources](https://www.quantstart.com/articles/Free-Quantitative-Finance-Resources/) `⏸️ fora do ar`
 - [Letian Wang Blog: Quantitative Trading and Systematic Investing](https://letianzj.github.io/quanttrading-backtest.html)
 - [▶️ Marting Bel: Backtesting with Pandas and `TA-lib`](https://www.youtube.com/watch?v=WBPnN8DIMYI&ab_channel=MartinBel)
 
 ### 🏗️ Research Infrastructure & Backtesting Pitfalls
-- [Setting Up an Algorithmic Trading Business](https://www.quantstart.com/articles/setting-up-an-algorithmic-trading-business/) `⏸️ fora do ar`
-- [Reseatch Backtesting Environments in Python with `pandas`](https://www.quantstart.com/articles/Research-Backtesting-Environments-in-Python-with-pandas/) `⏸️ fora do ar`
-- [Backtesting a Moving Average Crossover in Python with `pandas`](https://www.quantstart.com/articles/Backtesting-a-Moving-Average-Crossover-in-Python-with-pandas/) `⏸️ fora do ar`
-- [Securities Master Databases for Algorithmic Trading](https://www.quantstart.com/articles/Securities-Master-Databases-for-Algorithmic-Trading/) `⏸️ fora do ar`
-- [Sucessful Backtesting of Algorithmic Trading Strategies - Part I](https://www.quantstart.com/articles/Successful-Backtesting-of-Algorithmic-Trading-Strategies-Part-I/) `⏸️ fora do ar`
-- [Sucessful Backtesting of Algorithmic Trading Strategies - Part II](https://www.quantstart.com/articles/Successful-Backtesting-of-Algorithmic-Trading-Strategies-Part-II/) `⏸️ fora do ar`
-- [Build a Trading System in Python – Part 1](https://towardsdatascience.com/building-a-trading-system-in-python-part-i-data-handling-4602cba31009) `❌ 404`
 - [Using ArcticDB for Financial Analysis with Python and yFinance- Tikam Singh Alma](https://dev.to/tikam02/using-arcticdb-for-financial-analysis-with-python-and-yfinance-9oj)
 - [AutoTrader — Developing a Scanner](https://kieran-mackle.github.io/AutoTrader/2021/09/27/developing-scanner.html) - Tutorial: scanner que avisa de mercados em tendência.
 
@@ -355,14 +340,9 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [gabekutner/turtle-trading](https://github.com/gabekutner/turtle-trading) - Pacote Python com ferramentas do Turtle Trading.
 
 ### ↔️ Mean Reversion
-- [Basics of Statistical Mean Reversion Testing](https://www.quantstart.com/articles/Basics-of-Statistical-Mean-Reversion-Testing/) `⏸️ fora do ar`
-- https://www.quantstart.com/articles/Basics-of-Statistical-Mean-Reversion-Testing-Part-II/ `⏸️ fora do ar`
 - https://letianzj.github.io/mean-reversion.html
 
 ### 🔗 Pairs Trading & Cointegration
-- [Backtesting An Intraday Mean Reversion Pairs Strategy Between SPY And IWM](https://www.quantstart.com/articles/Backtesting-An-Intraday-Mean-Reversion-Pairs-Strategy-Between-SPY-And-IWM/) `⏸️ fora do ar`
-- [Kalman Filter Based Pairs Trading Strategy in QSTrader](https://www.quantstart.com/articles/kalman-filter-based-pairs-trading-strategy-in-qstrader/) `⏸️ fora do ar`
-- https://www.quantstart.com/articles/Dynamic-Hedge-Ratio-Between-ETF-Pairs-Using-the-Kalman-Filter/ `⏸️ fora do ar`
 - https://github.com/sangamkotalwar/Classification-and-Regression-based-ML-for-Finance/blob/master/Regression%20Based%20Machine%20Learning%20for%20Algorithmic%20Trading/Pairs_Trading_and_Linear_Regression.ipynb
 - https://blog.quantinsti.com/kalman-filter-techniques-statistical-arbitrage-china-futures-market-python/
 - https://www.pythonforfinance.net/2018/07/04/mean-reversion-pairs-trading-with-inclusion-of-a-kalman-filter/
@@ -370,25 +350,19 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - https://github.com/eurico3/pairs-pipeline/tree/master/pairs_pipeline
 - https://github.com/marketneutral/pairs-trading-with-ML/blob/master/Pairs%2BTrading%2Bwith%2BMachine%2BLearning.ipynb
 - [wywongbd/pairstrade-fyp-2019](https://github.com/wywongbd/pairstrade-fyp-2019) - Pairs trading: distância, cointegração e RL ([notebooks em jupyter_py](https://github.com/wywongbd/pairstrade-fyp-2019/tree/master/jupyter_py)).
-- https://hudson-and-thames-arbitragelab.readthedocs-hosted.com/en/latest/index.html `❌ 404`
 - https://letianzj.github.io/cointegration-pairs-trading.html
-- https://blog.quantinsti.com/pair-trading-strategy-backtesting-using-quantstrat/ `🔁 duplicado`
-- https://www.quantstart.com/articles/aluminum-smelting-cointegration-strategy-in-qstrader/ `⏸️ fora do ar`
 
 ### 💱 Arbitrage
 - [▶️ Boontext: Introduction to Arbitrage Trading](https://www.youtube.com/watch?v=W58GUkZ9MyQ&ab_channel=Boontext)
 - [BF Currency Arbitrage](https://github.com/omerincialan/BF-Currency-Arbitrage)
 
 ### 📊 Market Regimes (HMM)
-- [Market Regime Detection Using Hidden Markov Models in QSTrader](https://www.quantstart.com/articles/market-regime-detection-using-hidden-markov-models-in-qstrader/) `⏸️ fora do ar`
-- [Hidden Markov Models for Regime Detection Using R](https://www.quantstart.com/articles/hidden-markov-models-for-regime-detection-using-r/) `⏸️ fora do ar`
 - [Hidden Markov Chain Tutorial](https://letianzj.github.io/hidden-markov-chain.html)
 
 ### 🌪 Volatility
 - [Reference: Volatility Trading Guide](https://www.trading-volatility.com/Trading-Volatility.pdf)
 
 ### 🎲 Options, Futures & Derivatives
-- [Continuous Futures Contracts for Backtesting Purposes](https://www.quantstart.com/articles/Continuous-Futures-Contracts-for-Backtesting-Purposes/) `⏸️ fora do ar`
 - [The-Options-Guru/Tastytrade-API-GEX-Dashboard](https://github.com/The-Options-Guru/Tastytrade-API-GEX-Dashboard) - Dashboard Streamlit de gamma exposure (GEX) de opções.
 
 ### ⚖️ Risk Management
@@ -441,7 +415,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [light-weight-charts](https://github.com/louisnw01/lightweight-charts-python)
 
 ### 🎯 Backtesting Frameworks
-- [QSTrader](https://www.quantstart.com/qstrader/) `⏸️ fora do ar`
 - [Zipline](https://github.com/quantopian/zipline)
 - [PyAlgoTrade](https://gbeced.github.io/pyalgotrade/)
 - [pysystemtrade](https://github.com/robcarver17/pysystemtrade)
@@ -452,10 +425,9 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [NowTrade](https://github.com/lohithn4/NowTrade) or [NowTrade](https://github.com/edouardpoitras/NowTrade)
 - [Moonshot (by Quantrocket)](https://github.com/quantrocket-llc/moonshot)
 - [Zipline (by Quantopian)](https://github.com/quantrocket-llc/zipline)
-- [bt](https://github.com/pmorissette/bt)
+- [bt](https://github.com/pmorissette/bt) - Backtesting flexível para finanças.
 - [RQalpha](https://github.com/ricequant/rqalpha)
 - [zvt](https://github.com/zvtvz/zvt)
-- [pmorissette/bt](https://github.com/pmorissette/bt) — Backtesting flexível para finanças `🔁 duplicado`
 - [letianzj/quanttrader](https://github.com/letianzj/quanttrader) - Backtest e trading ao vivo em Python.
 
 ### 🚀 Trading Platforms & Engines
@@ -463,7 +435,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [VectorBT](https://vectorbt.pro/)
 - [Lumibot](https://lumibot.lumiwealth.com/) - Backtest e trading ao vivo em várias corretoras, com IA ([código](https://github.com/Lumiwealth/lumibot)).
 - [Quantrocket](https://www.quantrocket.com/)
-- [QuantConnect LEAN](https://github.com/QuantConnect/Lean) `🔁 duplicado`
 - [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)
 - [jesse-ai/jesse](https://github.com/jesse-ai/jesse) - Framework de pesquisa, backtest e trading de cripto.
 - [0xemmkty/QuantMuse](https://github.com/0xemmkty/QuantMuse) - Sistema quant completo com IA e gestão de risco.
@@ -479,7 +450,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Quantstats](https://github.com/ranaroussi/quantstats)
 
 ### 🧩 Portfolio Optimization
-- [Riskfolio](https://riskfolio-lib.readthedocs.io/en/latest/examples.html) `❌ 404`
 - [cvxportfolio](https://github.com/cvxgrp/cvxportfolio) — Convex optimization for portfolio optimization
 
 ### 🧮 Pricing & Derivatives
@@ -531,16 +501,13 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 ### 🕯️ Market Data (Prices/OHLC)
 - [Yahoo Finance](https://finance.yahoo.com/) via `yfinance`
-- [Quandl (Nasdaq Data Link)](https://data.nasdaq.com/institutional-investors) — Dados financeiros (alguns gratuitos) `❌ 404`
 - [Stooq](https://stooq.com/)
 - [Polygon.IO](https://polygon.io/)
 - [Alpha Vantage](https://www.alphavantage.co/)
 - [eoddata](https://eoddata.com/)
 - [HistData](https://www.histdata.com/)
-- [Financial Modeling Prep](https://site.financialmodelingprep.com/)
 - [Intrinio](https://intrinio.com/)
 - [TraderMate](https://tradermade.com/)
-- [financial datasets](https://www.financialdatasets.ai/)
 - [twelvedata](https://twelvedata.com/)
 - [stockdata.org](https://www.stockdata.org/)
 - [Aletheia](https://aletheiaapi.com/)
@@ -557,9 +524,10 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 ### 🧾 Fundamentals & Filings
 - [SEC Form](https://www.secform4.com/)
-- [Financial Modeling Prep](https://site.financialmodelingprep.com/) `🔁 duplicado`
-- [financial datasets](https://www.financialdatasets.ai/) `🔁 duplicado`
+- [Financial Modeling Prep](https://site.financialmodelingprep.com/)
+- [financial datasets](https://www.financialdatasets.ai/)
 - [HedgeFollow — Duquesne Family Office (13F)](https://hedgefollow.com/funds/Duquesne+Family+Office) - Posições 13F do family office de Druckenmiller.
+- [CVM - Comissão de Valores Mobiliários](https://dados.cvm.gov.br/) - Portal de dados abertos da CVM: demonstrativos de companhias abertas (DFP/ITR), fundos e cadastros.
 
 ### 🌐 Macro: Global
 - [IMF Data](http://www.imf.org/en/Data) — The standard reference for macro data. `🤖 bloqueia bot`
@@ -585,7 +553,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [BCB](https://dadosabertos.bcb.gov.br/)
 - [RSS BCB](https://www.bcb.gov.br/acessoinformacao/rss)
 - [IBGE - Instituto Brasileiro de Geografia e Estatística](https://www.ibge.gov.br/) `🤖 bloqueia bot`
-- [CVM - Comissão de Valores Mobiliários]() `🔗 sem URL`
 - [Fundamentus](https://www.fundamentus.com.br/index.php)
 - [brapi.dev](https://brapi.dev/) - API da bolsa brasileira com plano gratuito.
 - [Partnr](https://www.partnr.ai/) - APIs de dados do mercado brasileiro (B3, CVM, FIIs).
@@ -601,16 +568,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ### 📦 Data Catalogs
 - [Reddit Datasets](https://www.reddit.com/r/datasets/)
 - [List of Public APIs](https://github.com/public-apis/public-apis)
-
-### 📝 Notas de seção (texto a converter em itens)
-- **🧮 Datasets & APIs / 🕯️ OHLC:** Yahoo Finance, Polygon.io, Alpha Vantage
-- **🧮 Datasets & APIs / 📐 Technical Indicators:** Yahoo Finance, TA-Lib
-- **🧮 Datasets & APIs / 🌍 Macroeconomic Data:** FRED, Pandas DataReader, Eurostat
-- **🧮 Datasets & APIs / 🧾 Financial Reporting:** SEC EDGAR, 10-K, 10-Q, 8-K fillings
-- **🧮 Datasets & APIs / 📰 News:** Polygon.io, NewsAPI
-- **🧮 Datasets & APIs / 📊 Fundamental Data:** Yahoo Finance, paids data providers, or web scraping
-- **🧮 Datasets & APIs / 🌟 Alternative Data:** Web Traffic, YouTube Revenue, Satellite Imagery, Social Media, Sentiment from X/Twitter, Reddit, Glassdoor, App Usage, Credit Card Data
-- **🧮 Datasets & APIs / 📅 Events:** Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions, conference calls
 
 [[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
 
@@ -662,8 +619,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 ### ✍️ Blogs, Newsletters & Essays
 - [Python for Finance](https://www.pythonforfinance.net/)
-- [Quantstart](https://www.quantstart.com/) `⏸️ fora do ar`
-- [The Market Is Smarter Than You Are – Ben Carlson](https://awealthofcommonsense.com/2021/06/the-market-is-smarter-than-you-are/) `❌ 404`
 - [quant-science/sunday-quant-scientist](https://github.com/quant-science/sunday-quant-scientist) - Newsletter gratuita de quant, com código de cada edição.
 - [Capital Flows — Educational Primers](https://www.capitalflowsresearch.com/p/research-synthesis-direction-of-capital) - Índice de artigos educativos sobre macro e mercados.
 
@@ -688,7 +643,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 ### 💬 Forums & Communities
 - [Reddit - Algotrading](https://www.reddit.com/r/algotrading/)
-- [Algotrading Reddit](https://www.reddit.com/r/algotrading/) `🔁 duplicado`
 
 ### ▶️ YouTube Channels
 - neurotrader: https://www.youtube.com/@neurotrader888/videos
@@ -724,9 +678,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 ### 💹 Bloomberg Terminal & API
 - [Bloomberg API Usage - Yiyang Zhang](https://yiyangclarkzhang0201.com/code-and-data/bloomberg/)
-- `<BPS>` `🔗 sem URL`
-- `<LABB>` `🔗 sem URL`
-- `<MREF>` `🔗 sem URL`
 - [Reference: Bloomberg for Education](https://portal.bloombergforeducation.com/)
   - [Bloomberg Market Concepts Certificate](https://portal.bloombergforeducation.com/courses?course_category_id=3)
   - [Bloomberg Spreadsheet Analysis Certificate](https://portal.bloombergforeducation.com/courses?course_category_id=15)
@@ -758,7 +709,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [AllInvestView — Ticker Logos](https://www.allinvestview.com/tools/ticker-logos/) - CDN grátis de logos por ticker.
 
 ### ⚙️ Productivity & Knowledge Management
-- [How I Use My Second Brain – Ali Abdaal](https://aliabdaal.com/second-brain/) `❌ 404`
 - [Notion](https://notion.so/) — Organização pessoal e projetos
 - [Power Toys](https://learn.microsoft.com/pt-br/windows/powertoys/run)
 - [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=pt-BR&gl=BR)
@@ -783,7 +733,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Marimo](https://marimo.io/)
 
 ### 📖 Books & Reading
-- [libgen](https://libgen.is/) — Livros `⏸️ fora do ar`
+- [Library Genesis (libgen.li)](https://libgen.li/) - Biblioteca digital de livros e artigos científicos.
 - [Market Makers — Biblioteca](https://mmakers.com.br/biblioteca-market-makers/) - Livros recomendados pelos convidados do podcast Market Makers.
 
 [[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
@@ -791,7 +741,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ## 💼 Career
 
 ### 🎯 Interview Prep
-- [Google Interview Warmup](https://www.cloudskillsboost.google/interview_warmup/) `❌ 404`
 - [cybergeekgyan/Quant-Developers-Resources](https://github.com/cybergeekgyan/Quant-Developers-Resources) - Recursos de preparação para vagas quant.
 
 ### 💻 Coding Practice
@@ -843,15 +792,5 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) - Projetos de exemplo com RAG, agentes e workflows.
 - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) - Awesome list de LLMs e deep learning em finanças.
 - [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) - Awesome list de IA e ML para investimento quant.
-
-[[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
-
-## 🗂️ Curation Backlog
-
-Itens vazios que estavam no README original. Ficam preservados aqui até serem completados.
-
-### 🗂️ Itens vazios (preservados)
-- []() `🔗 sem URL`
-- `🔗 sem URL`
 
 [[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
