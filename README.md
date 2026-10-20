@@ -89,7 +89,6 @@ This repository is my public "Second Brain": a personal curation of content I fi
   - [🌴 Brazil](#-brazil)
   - [🌟 Alternative Data](#-alternative-data)
   - [📦 Data Catalogs](#-data-catalogs)
-  - [📝 Notas de seção (texto a converter em itens)](#-notas-de-seção-texto-a-converter-em-itens)
 - [🇧🇷 Open Source Brasil](#-open-source-brasil)
 - [🧠 Papers \& Academic Sources](#-papers--academic-sources)
 - [📰 Community \& Media](#-community--media)
@@ -528,6 +527,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [Financial Modeling Prep](https://site.financialmodelingprep.com/)
 - [financial datasets](https://www.financialdatasets.ai/)
 - [HedgeFollow — Duquesne Family Office (13F)](https://hedgefollow.com/funds/Duquesne+Family+Office) - Posições 13F do family office de Druckenmiller.
+- [CVM - Comissão de Valores Mobiliários](https://dados.cvm.gov.br/) - Portal de dados abertos da CVM: demonstrativos de companhias abertas (DFP/ITR), fundos e cadastros.
 
 ### 🌐 Macro: Global
 - [IMF Data](http://www.imf.org/en/Data) — The standard reference for macro data. `🤖 bloqueia bot`
@@ -568,16 +568,6 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ### 📦 Data Catalogs
 - [Reddit Datasets](https://www.reddit.com/r/datasets/)
 - [List of Public APIs](https://github.com/public-apis/public-apis)
-
-### 📝 Notas de seção (texto a converter em itens)
-- **🧮 Datasets & APIs / 🕯️ OHLC:** Yahoo Finance, Polygon.io, Alpha Vantage
-- **🧮 Datasets & APIs / 📐 Technical Indicators:** Yahoo Finance, TA-Lib
-- **🧮 Datasets & APIs / 🌍 Macroeconomic Data:** FRED, Pandas DataReader, Eurostat
-- **🧮 Datasets & APIs / 🧾 Financial Reporting:** SEC EDGAR, 10-K, 10-Q, 8-K fillings
-- **🧮 Datasets & APIs / 📰 News:** Polygon.io, NewsAPI
-- **🧮 Datasets & APIs / 📊 Fundamental Data:** Yahoo Finance, paids data providers, or web scraping
-- **🧮 Datasets & APIs / 🌟 Alternative Data:** Web Traffic, YouTube Revenue, Satellite Imagery, Social Media, Sentiment from X/Twitter, Reddit, Glassdoor, App Usage, Credit Card Data
-- **🧮 Datasets & APIs / 📅 Events:** Earnings Calendar, ETF flows, activistt investor actions, mergers & acquisitions, conference calls
 
 [[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
 
