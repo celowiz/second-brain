@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - 'books.csv'
+      - 'scripts/validate_csv.py'
+      - 'scripts/taxonomy.py'
+      - 'scripts/generate_books_table.py'
 
 jobs:
   validate:

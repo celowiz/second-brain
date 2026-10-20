@@ -5,6 +5,8 @@ on:
     paths:
       - books.csv
       - scripts/generate_books_table.py
+      - scripts/taxonomy.py
+      - scripts/validate_csv.py
   workflow_dispatch:
   schedule:
     - cron: '0 12 * * 1'  # Every Monday at 12:00 UTC
@@ -35,6 +37,10 @@ jobs:
         run: |
           pip install -r requirements.txt || true
 
+      - name: Validate books.csv
+        run: |
+          python scripts/validate_csv.py
+
       - name: Generate and update books table
         run: |
           # Generate the table and update README
@@ -52,7 +58,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          # Só os arquivos gerados/mantidos pelo bot (evita versionar __pycache__ e outros artefatos)
+          git add README.md books.csv
           git diff --cached --quiet || git commit -m "chore: Repository update after books table generation 📚
 
           - Updated books table in README.md
