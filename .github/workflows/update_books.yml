@@ -45,7 +45,8 @@ jobs:
           # Get current time in UTC-3
           date=$(TZ='America/Sao_Paulo' date '+%Y-%m-%d %H:%M:%S UTC-3')
           # Update the Last Updated line in README
-          sed -i "0,/Last Updated:/s/Last Updated:.*/*Last Updated: $date*/" README.md || true
+          # Idempotente: absorve qualquer quantidade de '*' antes/depois e reescreve a linha inteira
+          sed -i -E "0,/Last Updated:/s/^[*]*Last Updated:.*$/*Last Updated: $date*/" README.md || true
 
       - name: Commit and push if changed
         run: |
