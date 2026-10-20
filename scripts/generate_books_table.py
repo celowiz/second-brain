@@ -1,43 +1,23 @@
 import csv
+import os
 import re
 import sys
 import requests
 from urllib.parse import quote
 
-TEMPLATE = "| ![cover]({cover_url}) | {title} | [![Amazon]({amazon_badge})]({amazon_url}) | {badges} |"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from taxonomy import LANGUAGES, TAGS, THEMES  # noqa: E402
+
+TEMPLATE = "| ![cover]({cover_url}) | {title} | [![Amazon]({amazon_badge})]({amazon_url}){kindle_link} | {badges} |"
+KINDLE_LINK_TEMPLATE = "<br>[![Kindle]({kindle_badge})]({kindle_url})"
 DEFAULT_COVER = "https://openlibrary.org/images/icons/avatar_book.png"
 
-# Badge configurations
+# Badge configurations: gerado da taxonomia fechada (scripts/taxonomy.py),
+# para que nenhum tema/tag do books.csv seja descartada na tabela.
 BADGE_TYPES = {
-    # Topics
-    "Finance": {"prefix": "Topic", "color": "orange"},
-    "Psychology": {"prefix": "Topic", "color": "lightgrey"},
-    "Quant": {"prefix": "Topic", "color": "lightblue"},
-    "Statistics": {"prefix": "Topic", "color": "blue"},
-    "Design Patterns": {"prefix": "Topic", "color": "yellowgreen"},
-    "Data Science": {"prefix": "Topic", "color": "orange"},
-    "Data Engineering": {"prefix": "Topic", "color": "grey"},
-    
-    # Types
-    "Programming": {"prefix": "Type", "color": "brightgreen"},
-    
-    # Languages
-    "Python": {"prefix": "Language", "color": "yellow"},
-    "Java": {"prefix": "Language", "color": "blue"},
-    "C/C++": {"prefix": "Language", "color": "blue"},
-    
-    # Genres
-    "Biography": {"prefix": "Genre", "color": "blueviolet"},
-    
-    # Levels
-    "Advanced": {"prefix": "Level", "color": "red"},
-    "Intermediate": {"prefix": "Level", "color": "lightblue"},
-    
-    # Special tags
-    "Classic": {"prefix": "Classic", "color": "red"},
-    
-    # Authors
-    "Author": {"prefix": "Author", "color": "informational"}
+    **{name: {"prefix": "Theme", "color": color} for name, color in THEMES.items()},
+    **{name: {"prefix": "Tag", "color": color} for name, color in TAGS.items()},
+    **{name: {"prefix": "Lang", "color": color} for name, color in LANGUAGES.items()},
 }
 
 def create_badge(text, config):
@@ -50,6 +30,10 @@ def create_badge(text, config):
 def get_amazon_badge():
     """Create a small Amazon badge"""
     return "https://img.shields.io/badge/-Buy%20on%20Amazon-black"
+
+def get_kindle_badge():
+    """Small secondary badge for the Kindle edition"""
+    return "https://img.shields.io/badge/-Kindle-blue"
 
 def add_affiliate_tag(amazon_url):
     """Add Amazon affiliate tag to URL"""
@@ -148,7 +132,14 @@ def generate_table_row(row):
     title = row["title"].strip()
     raw_amazon_url = row["amazon"].strip()
     amazon_url = add_affiliate_tag(raw_amazon_url)
-    categories = [c.strip() for c in row["categories"].split(";")]
+    categories = [c.strip() for c in row["categories"].split(";") if c.strip()]
+    # Coluna opcional: CSVs sem `kindle` continuam funcionando
+    raw_kindle_url = (row.get("kindle") or "").strip()
+    kindle_link = (
+        KINDLE_LINK_TEMPLATE.format(kindle_badge=get_kindle_badge(), kindle_url=add_affiliate_tag(raw_kindle_url))
+        if raw_kindle_url
+        else ""
+    )
     
     # Get cover URL with fallback
     cover_url = get_cover_url(isbn, raw_amazon_url)
@@ -159,6 +150,8 @@ def generate_table_row(row):
         if category in BADGE_TYPES:
             badge_url = create_badge(category, BADGE_TYPES[category])
             badges.append(f"![{category}]({badge_url})")
+        else:
+            print(f"Warning: category '{category}' has no badge (ISBN {isbn})", file=sys.stderr)
     
     # Format the row using the template
     return TEMPLATE.format(
@@ -166,6 +159,7 @@ def generate_table_row(row):
         title=f"**{title}**",
         amazon_badge=get_amazon_badge(),
         amazon_url=amazon_url,
+        kindle_link=kindle_link,
         badges=" ".join(badges)
     )
 
