@@ -222,7 +222,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 ### 📈 Economics
 - [QuantEcon: Python para Economia](https://quantecon.org/)
 - [CORE Econ](https://www.core-econ.org/)
-- [MIT OCW Economics](http://ocw.mit.edu/courses/economics/) - Over 100 courses covering all major fields of economics. Courses include prerequisites, recommended textbooks, lecture slides, and assignments. Undergraduate and graduate programs.
+- [MIT OCW Economics](https://ocw.mit.edu/courses/economics/) - Over 100 courses covering all major fields of economics. Courses include prerequisites, recommended textbooks, lecture slides, and assignments. Undergraduate and graduate programs.
 - [Khan Academy: Economics](https://www.khanacademy.org/economics-finance-domain) - Elementary topics.
 
 ### 📊 Data Science
@@ -554,7 +554,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [CVM - Comissão de Valores Mobiliários](https://dados.cvm.gov.br/) - Portal de dados abertos da CVM: demonstrativos de companhias abertas (DFP/ITR), fundos e cadastros.
 
 ### 🌐 Macro: Global
-- [IMF Data](http://www.imf.org/en/Data) — The standard reference for macro data. `🤖 bloqueia bot`
+- [IMF Data](https://www.imf.org/en/Data) — The standard reference for macro data. `🤖 bloqueia bot`
 - [theGlobalEconomy.com](https://www.theglobaleconomy.com/)
 - [econdb](https://www.econdb.com/home)
 - [OECD](https://data-explorer.oecd.org/)
@@ -633,9 +633,9 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 - [Lo & MacKinlay (1999)](https://www.jstor.org/stable/10.1086/468140) — The Econometrics of Financial Markets
 - [Bengio et al. (2015)](https://arxiv.org/abs/1511.06434) — Deep Learning
-- [NBER](http://nber.org/papers.html) - Working papers by major researchers. Many of these papers get published in peer-reviewed journal.
-- [SSRN Economics](http://ssrn.com/en/index.cfm/ern/) - Working papers, no journal publications.
-- [Google Scholar](http://scholar.google.com/) - Searching academic literature in general. Features author pages and citation counters. If you look for economic writings only, IDEAS would be more powerful. `🤖 bloqueia bot`
+- [NBER](https://www.nber.org/papers) - Working papers by major researchers. Many of these papers get published in peer-reviewed journal.
+- [SSRN Economics](https://www.ssrn.com/en/index.cfm/ern/) - Working papers, no journal publications.
+- [Google Scholar](https://scholar.google.com/) - Searching academic literature in general. Features author pages and citation counters. If you look for economic writings only, IDEAS would be more powerful. `🤖 bloqueia bot`
 
 [[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
 
@@ -740,13 +740,13 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 
 ### 🖋️ Writing & Version Control
 - [LaTeX](https://www.latex-project.org/) - Economists write in LaTeX because it handles mathematics and references better than Word or LibreOffice. If you write regularly, LaTeX is worth learning.
-- [Git](https://git-scm.com/downloads) - A version control system. Useful if you want to revert changes done months ago or collaborate with other authors. DropBox also has version control, but Git is more explicit. A [short intro](http://rogerdudler.github.io/git-guide/). Or use [GitHub Desktop](https://desktop.github.com/) if you like it simple.
+- [Git](https://git-scm.com/downloads) - A version control system. Useful if you want to revert changes done months ago or collaborate with other authors. DropBox also has version control, but Git is more explicit. A [short intro](https://rogerdudler.github.io/git-guide/). Or use [GitHub Desktop](https://desktop.github.com/) if you like it simple.
 
 ### 🔄 Publishing & Sharing Research
 - [GitHub](https://github.com/) - A repository for code and data. Publishing research here is not a common practice, but it's more convenient that alternatives (university home page, DropBox, etc.).
   - [GitHub Pages](https://pages.github.com/) - Simple static websites.
   - [GitHub LFS](https://git-lfs.github.com/) - Large file storage.
-- [IPython Notebooks](http://ipython.org/) - An interactive alternative to LaTeX and Word. See examples how notebooks look like in [data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) and [the gallery](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks).
+- [IPython Notebooks](https://ipython.org/) - An interactive alternative to LaTeX and Word. See examples how notebooks look like in [data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) and [the gallery](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks).
 - [Binder](https://mybinder.org/)
 - [Quarto](https://quarto.org/)
 - [Voilà](https://voila.readthedocs.io/en/stable/)
@@ -818,3 +818,7 @@ Categories are identified by badges, and covers are automatically loaded by ISBN
 - [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) - Awesome list de IA e ML para investimento quant.
 
 [[Voltar ao topo]](#-second-brain--by-marcelo-wizenberg)
+
+<!-- omit in toc -->
+## 📝 Licença
+Código (scripts e workflows) sob [MIT](LICENSE); conteúdo escrito (listas, descrições e notas) sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Títulos e links de terceiros pertencem aos respectivos autores.
